@@ -89,9 +89,3 @@
 - Add on-screen buttons for controlling the flippers.
 - Include a left button for the left flipper and a right button for the right flipper.
 - Place the buttons directly below the canvas.
-
-## General Collision Requirements
-- Ensure the ball does not overlap with any game objects (e.g., lanes, walls, bumpers, flippers, or the plunger).
-- Reposition the ball to the edge of the object upon collision to prevent embedding or overlap.
-- Adjust the ball's velocity to reflect the collision and ensure it moves away from the object.
-- Apply a small positional offset to the ball after collision to avoid repeated collisions in the same frame.
