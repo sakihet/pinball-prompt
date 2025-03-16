@@ -2,6 +2,9 @@
 
 A project to create a pinball game using an AI agent.
 
+## Prompts
+- https://github.com/sakihet/pinball-prompt/blob/main/.github/prompts/specs.prompt.md
+
 ## Development
 
 ```
