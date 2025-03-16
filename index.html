@@ -4,10 +4,38 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Pinball Prompt</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <div class="flex-row">
+        <div class="f-1">
+          <h1>
+            Pinball Prompt
+          </h1>
+          <p>Creating a pinball game using an AI agent</p>
+        </div>
+        <div>
+          <a href="">GitHub</a>
+        </div>
+      </div>
+      <div class="flex-row layout-stack-h-4">
+        <div>
+          <canvas id="cv" class="border" width="600px" height="800px"></canvas>
+          <div id="controls">
+            <button>Left flipper (←)</button>
+            <button>Right flipper (→)</button>
+            <button>Launch (space)</button>
+          </div>
+        </div>
+        <div>
+          <h2>Score</h2>
+          <output id="score">0</output>
+          <h2>Balls</h2>
+          <output id="balls">3</output>
+        </div>
+      </div>
+    </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
